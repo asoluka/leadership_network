@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> | Event</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <script type="text/javascript">
+      function initMap() {
+        // The location of Uluru
+        var uluru = {lat: -25.344, lng: 131.036};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 4, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+      }
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+    <div class="main">
+      <div class="first-banner full-vh">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 both-centered eighty-vh pt-5">
+              <h1 class="white-text top-banner medium-font">LAUNCH &nbsp&nbsp LEADERSHIP &nbsp&nbsp NETWORK</h1>
+              <p class="top-banner">- Rethink Church</p>
+              <div class="">
+                <a class="btn button button-white-text button-gradient register-button" href="">REGISTER</a>
+                <a class="btn button button-white-text view-speakers-button border-gradient" href="">VIEW SPEAKERS</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 twenty-vh flex-column-end">
+              <div class="row">
+                <div class="col-4 top-span text-right">
+                  <i class="fas fa-user-friends"></i> Join <br> 1000+
+                </div>
+                <div class="col-4 top-span text-center">
+                  <i class="fas fa-calendar-check"></i> 10 -14th <br> March 2020
+                </div>
+                <div class="col-4 top-span text-left">
+                  <i class="fas fa-map-marker"></i> Abuja <br> Nigeria
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Introduction -->
+      <div class="introduction seventy-five-vh">
+        <div class="container">
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 pt-5 text-center">
+              <h5 class="white-text">INTRODUCTION</h5>
+              <h3 class="white-text medium-font">You are invited to our <br> Annual Conference</h3>
+              <p class="regular white-text">Lorem ipsum is what i'm supposed to use but as it is now, I just have to improvise but this
+                is a dummy text anyway so don't be too bothered. THe main content
+                will replace this in due time when the copy is ready.</p>
+            </div>
+            <div class="col-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+
+            </div>
+            <div class="col-3">
+
+            </div>
+            <div class="col-3">
+
+            </div>
+            <div class="col-3">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event Schedule -->
+      <div class="schedule">
+        <div class="container">
+          <h3 class="medium-font mt-4 text-center">Event Schedule</h3>
+          <div class="row thick-gradient twenty-five-vh mt-4">
+            <div class="col-3 both-centered">
+              <!-- <p class="text-white">DAY</p> -->
+              <h1 class="text-white bigger-font top-banner">01</h1>
+            </div>
+            <div class="col-9 both-centered">
+              <p class="regular white-text">Lorem ipsum is what i'm supposed to use but as it is now, I just have to improvise but this
+                is a dummy text anyway so don't be too bothered. THe main content
+                will replace this in due time when the copy is ready.</p>
+            </div>
+          </div>
+
+          <div class="row twenty-five-vh mt-4 shadowed">
+            <div class="col-3 both-centered">
+              <!-- <p>DAY</p> -->
+              <h1 class="bigger-font top-banner">02</h1>
+            </div>
+            <div class="col-9 both-centered">
+              <p class="regular">Lorem ipsum is what i'm supposed to use but as it is now, I just have to improvise but this
+                is a dummy text anyway so don't be too bothered. THe main content
+                will replace this in due time when the copy is ready.</p>
+            </div>
+          </div>
+
+          <div class="row thick-gradient twenty-five-vh mt-4 shadowed">
+            <div class="col-3 both-centered">
+              <!-- <p class="text-white">DAY</p> -->
+              <h1 class="text-white bigger-font top-banner">03</h1>
+            </div>
+            <div class="col-9 both-centered">
+              <p class="regular white-text">Lorem ipsum is what i'm supposed to use but as it is now, I just have to improvise but this
+                is a dummy text anyway so don't be too bothered. THe main content
+                will replace this in due time when the copy is ready.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event Speakers -->
+      <div class="mb-5">
+        <div class="container">
+          <h3 class="medium-font mt-4 text-center">Event Speakers</h3>
+          <div class="row mt-5">
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Audience -->
+      <div class="introduction seventy-five-vh">
+        <div class="container">
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 pt-5 text-center">
+              <h5 class="white-text">AUDIENCE</h5>
+              <h3 class="white-text medium-font">You are invited to our <br> Annual Conference</h3>
+              <p class="regular white-text">Lorem ipsum is what i'm supposed to use but as it is now, I just have to improvise but this
+                is a dummy text anyway so don't be too bothered. THe main content
+                will replace this in due time when the copy is ready.</p>
+            </div>
+            <div class="col-2"></div>
+          </div>
+          <div class="row pt-5 pb-5">
+            <div class="col-1"></div>
+            <div class="col-10">
+              <div class="row">
+                <div class="col-4 fifty-vh vertical-centered">
+                  <h6 class="white-text">VENUE</h6>
+                  <h4 class="white-text">Houston Trade Center</h4>
+                  <p>Lorem ipsum is what i'm supposed to use but as it is now,</p>
+                  <h5 class="white-text">ADDRESS</h5>
+                  <ul style="list-style-type: none;">
+                    <li>Street Address</li>
+                    <li>City</li>
+                    <li>COuntry</li>
+                  </ul>
+                </div>
+                <div class="col-8 map">
+                  <div class="row" id="map"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="row both-centered twenty-five-vh">
+              <div class="col-12 text-center">
+                <span class="footer-text small-font text-white top-banner">LAUNCH &nbsp&nbsp LEADERSHIP &nbsp&nbsp NETWORK</span>
+                <a class="btn button button-white-text button-gradient register-button" href="">REGISTER</a>
+                <a class="btn button button-white-text view-speakers-button border-gradient" href="">VIEW SPEAKERS</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
