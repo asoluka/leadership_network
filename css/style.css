@@ -40,7 +40,9 @@ img.image-icons {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.gold{
+    color: #ffffc9;
+}
 .white-text{color: white;}
 .button-white-text{color: white;}
 
@@ -97,7 +99,7 @@ img.image-icons {
 }
 
 .top-span{
-  border: 1px solid white;
+  /* border: 1px solid white; */
   color: #c8c8c8
   /* #ffff99 */
 }
