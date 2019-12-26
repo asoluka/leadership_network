@@ -1,4 +1,8 @@
 *{box-sizing: border-border-box;}
+a, a:hover, a:visited{
+  text-decoration: none;
+  color: black;
+}
 @font-face {
   /* font-family: "Qanelas Bold";
   src: url("../fonts/Qanelas-Bold.otf"); */
