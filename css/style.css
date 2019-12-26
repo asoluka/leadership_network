@@ -135,8 +135,6 @@ img.image-icons {
 .footer span{padding: 5px 20px !important;}
 #map {
   border: 20px solid #20253ffa;
-  height: 100%;  /* The height is 400 pixels */
-  width: 100%;  /* The width is the width of the web page */
 }
 
 #clockdiv{
