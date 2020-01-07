@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/themify.css">
     <link rel="stylesheet" href="css/font-awesome-min.css">
+    <link rel="icon" href="images/logo.png">
+    <meta name="keywords" content="Rethinking2020, Church, Conference, Event, Leaders, Leadership, Mentorship">
+		<meta property="og:title" content="LAUNCH LEADERSHIP NETWORK - Rethinking Church" />
+		<meta property="og:description" content="Rethink Church conference is a free event which will empower leaders all around the world." />
+		<meta property="og:url" content="http://rethink-church.org" />
+		<meta property="og:image" content="http://rethink-church.org/images/og_image.jpg" />
+		<meta property="og:type" content="website" />
   </head>
   <body>
     <div class="main">
@@ -323,19 +330,20 @@
       </div>
     </div>
     <script type="text/javascript">
-    function getTimeRemaining(endtime) {
-      var t = Date.parse(endtime) - Date.parse(new Date());
-      var seconds = Math.floor((t / 1000) % 60);
-      var minutes = Math.floor((t / 1000 / 60) % 60);
-      var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-      var days = Math.floor(t / (1000 * 60 * 60 * 24));
-      return {
-        'total': t,
-        'days': days,
-        'hours': hours,
-        'minutes': minutes,
-        'seconds': seconds
-      };
+      function getTimeRemaining(endtime) {
+        var t = Date.parse(endtime) - Date.parse(new Date());
+        var seconds = Math.floor((t / 1000) % 60);
+        var minutes = Math.floor((t / 1000 / 60) % 60);
+        var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+        var days = Math.floor(t / (1000 * 60 * 60 * 24));
+
+        return {
+          'total': t,
+          'days': days,
+          'hours': hours,
+          'minutes': minutes,
+          'seconds': seconds
+        };
       }
 
       function initializeClock(id, endtime) {
