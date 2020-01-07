@@ -363,7 +363,20 @@
       var timeinterval = setInterval(updateClock, 1000);
       }
 
-      var deadline = new Date(Date.parse(new Date()) + 93 * 24 * 60 * 60 * 1000);
+      // calculate days
+      Date.prototype.formatMMDDYYYY = function(){
+          return (this.getMonth() + 1) +
+          "/" +  this.getDate() +
+          "/" +  this.getFullYear();
+      }
+      const date = new Date;
+      const date1 = new Date(date.formatMMDDYYYY());
+      const date2 = new Date('3/19/2020');
+      const diffTime = Math.abs(date2 - date1);
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+      // -------
+
+      var deadline = new Date(Date.parse(new Date()) + diffDays * 24 * 60 * 60 * 1000);
       initializeClock('clockdiv', deadline);
     </script>
   </body>
